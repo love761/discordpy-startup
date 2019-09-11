@@ -14,6 +14,10 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
+    
+@bot.command()
+async def mogukun(ctx):
+    await ctx.send('呼んだ？')
 
 
 bot.run(token)
